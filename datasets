@@ -1,0 +1,6 @@
+#python 的魔法方法__getitem__可以让对象实现迭代功能，这样就可以使用for...in...来迭代该对象了
+#在for...in...迭代对象时，如果该对象没有实现__iter__ __next__迭代器协议，python的解释器就会去寻找__getitem__来迭代对象，如果连__getitem__都没有定义
+#这解释器就会报对象不是迭代器的错误
+
+class Animal:
+    def 
